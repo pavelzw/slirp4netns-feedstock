@@ -7,8 +7,6 @@ package:
 source:
   url: https://github.com/rootless-containers/slirp4netns/archive/v{{ version }}.tar.gz
   sha256: 2450afb5730ee86a70f9c3f0d3fbc8981ab8e147246f4e0d354f0226a3a40b36
-  patches:
-    - 0001-Add-missing-defines-for-CentOS-6.patch
 
 build:
   number: 0
